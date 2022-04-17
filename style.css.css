@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#header{
+    height: 10vh;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orange
+
+}
+#header H1{
+    margin-top: 20px;
+}
+.link li{
+    list-style: none;
+    left: 30%;
+    position: absolute;
+}
+.link li a{
+    text-decoration: none;
+    padding: 0% 20px;
+    font-size: 20;
+    color: black;
+}
+#header h1{
+    color: black;
+    margin-left: 10px;
+}
+.content{
+    height: 80vh;
+    background-color:black;
+    color: orange;
+}
+.content div{
+    padding: 200px;
+    padding-right: 200px;
+    left: 20%;
+    position: absolute;
+}
+.content div h1{
+    font-size: 90px;
+
+}
+.content div h3{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.content div button{
+    background-color: orange;
+    border: orange;
+    width: 150px;
+    height: 30px;
+    left: 40%;
+    position: absolute;
+    color: black;
+}
+.content button:hover{
+    color: violet;
+    background-color: orange;
+}
+
+.section{
+    background-color: orange;
+    height: 30vh;
+}
+.SERVICE{
+    text-align: center;
+    font-size: 60px;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+#block{
+    height: 59vh;
+    background-color: black;
+}
+.royal{
+    color: orange;
+    width: 40%;
+    border: 1px solid orange;
+    height: 30vh;
+    text-align: center;
+
+}
+.royal h1{
+    padding-top: 50px;
+}
+.rich{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+#payment{
+    background-color: black;
+}
+.footer{
+    color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+button{
+    background-color: orange;
+    border: 1px solid violet;
+    height: 20px;
+    width: 70px;
+}
+.div{
+   margin-top: 20px;
+   padding-left: 10px;
+}
+
+
+
